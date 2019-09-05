@@ -17,6 +17,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void clearNumber();
+    void dialNumber();
 };
 
 #endif // MAINWINDOW_H
