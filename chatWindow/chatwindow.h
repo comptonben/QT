@@ -2,21 +2,26 @@
 #define CHATWINDOW_H
 
 #include <QWidget>
+#include <QTextBrowser>
+#include <QTextEdit>
 
-namespace Ui {
-class ChatWindow;
-}
+class QTextBrowser;
+class QTextEdit;
+class QEvent;
 
 class ChatWindow : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit ChatWindow(QWidget *parent = nullptr);
+    ChatWindow(QWidget *parent = nullptr);
     ~ChatWindow();
+    void submitChatText();
+    bool eventFilter(QObject *watched, QEvent *e);
 
 private:
-    Ui::ChatWindow *ui;
+    QTextBrowser *conversationView;
+    QTextEdit *chatEdit;
 };
 
 #endif // CHATWINDOW_H
