@@ -12,9 +12,17 @@ Dialog::Dialog(QWidget *parent) :
     ui->rightLabel->setNum(5);
     ui->leftLabel->setNum(0);
 
+    /*
+    // QT4
+    connect(ui->rightDial, SIGNAL(valueChanged(int)), ui->rightLabel, SLOT(setNum(int)));
+    connect(ui->leftDial, SIGNAL(valueChanged(int)), ui->leftLabel, SLOT(setNum(int)));
+    connect(ui->rightDial, SIGNAL(valueChanged(int)), this, SLOT(rightDialChanged(int)));
+    connect(ui->leftDial, SIGNAL(valueChanged(int)), this, SLOT(leftDialChanged(int)));
+    */
+
+    // QT5
     connect(ui->rightDial, &QDial::valueChanged, ui->rightLabel, static_cast<void (QLabel::*)(int)>(&QLabel::setNum));
     connect(ui->leftDial, &QDial::valueChanged, ui->leftLabel, static_cast<void (QLabel::*)(int)>(&QLabel::setNum));
-
     connect(ui->leftDial, static_cast<void (QDial::*)(int)>(&QDial::valueChanged), this, &Dialog::leftDialChanged);
     connect(ui->rightDial, static_cast<void (QDial::*)(int)>(&QDial::valueChanged), this, &Dialog::rightDialChanged);
 }
