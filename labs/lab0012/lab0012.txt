@@ -1,0 +1,61 @@
+-- Creates three tables with the following characteristics
+CREATE TABLE Catalog(CRN INT, 'Course #' TEXT, Title TEXT, Hours INT);
+CREATE TABLE Student('A#' INT, Last TEXT, First TEXT);
+CREATE TABLE Schedule('A#' INT, CRN INT);
+
+-- Insert values into the Catalog table
+INSERT INTO Catalog
+VALUES
+  (0000, 'CPE 112', 'C+', 3),
+  (1111, 'CPE 112L', 'Lab+', 0),
+  (2222, 'CPE 212', 'C++', 3),
+  (3333, 'CPE 221', 'Org', 3),
+  (4444, 'CPE 322', 'HW', 3),
+  (5555, 'CPE 323', 'Embedded', 3),
+  (6666, 'CPE 324', 'HWLab', 1),
+  (7777, 'CPE 325', 'LabEmbed', 1),
+  (8888, 'CPE 434', 'OS', 3),
+  (9999, 'CPE 435', 'LabOS', 1);
+
+--Insert values into the Student table
+INSERT INTO Student
+VALUES
+  (1234, 'Smith', 'Jane'),
+  (2345, 'Lincoln', 'Abraham'),
+  (3456, 'Franklin', 'Benjamin'),
+  (4567, 'Doe', 'John');
+
+-- Insert values into the Schedule table
+INSERT INTO Schedule
+VALUES
+  (1234, 0000),
+  (1234, 1111),
+  (1234, 3333),
+  (2345, 3333),
+  (3456, 4444),
+  (3456, 6666),
+  (4567, 4444),
+  (4567, 8888),
+  (4567, 9999);
+
+/*
+LIST QUERIES FOR EACH BELOW:
+
+What are the last and first names of the student with A# 1234?
+- SELECT Last, First FROM Student WHERE [A#] = 1234;
+
+List the CRNs for the courses in which student A# 1234 is enrolled.
+- SELECT CRN FROM Schedule WHERE [A#] = 1234;
+
+What courses provide only one hour of credit?
+- SELECT * FROM Catalog WHERE Hours = 1;
+
+List the CRN for each course in which a student named Benjamin Franklin is enrolled.
+- SELECT CRN FROM Schedule WHERE [A#] = (SELECT [A#] FROM Student WHERE First = 'Benjamin' AND Last = 'Franklin');
+
+Which courses have no students enrolled?
+- SELECT [Course #] FROM Catalog WHERE CRN in(SELECT CRN FROM Catalog EXCEPT SELECT CRN FROM Schedule);
+
+For the student with A# 4567, how many courses is this student currently enrolled?
+- SELECT COUNT([A#]) FROM Schedule WHERE [A#] = 4567;
+*/
