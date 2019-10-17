@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>EXAM II</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Directions</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_2">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Directions:    No collaboration!!  (scroll to read all instructions)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;See the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;Exam II Study Guide&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; for the list of approved resources.  &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Use of any other resources will be considered cheating and will result in &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;zero credit (0 points) &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;and additional penalties.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Before you begin, review all problems and the tentative grading rubric so that you may allocate appropriate time for each problem.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;When completing the tasks associated with each problem, you may only modify the files &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;mainwindow.h&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;mainwindow.cpp&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;togglelabel.h&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;togglelabel.cpp&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Do NOT modify &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;main.cpp&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;mainwindow.ui &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;(the form) or &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;resources.qrc&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt; or you will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; zero credit (0 points).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;The text browser object at the top of each tab descibes the desired tasks associated with that tab -- you may need to &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff000f;&quot;&gt;scroll&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; down to read the complete description.  Compare your work to the sample solution.  &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;See Canvas for directions on how to execute a copy of the sample solution.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;Your goal is to make your program's behavior match that of the sample solution (while conforming to specified constraints)!!!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;When you are finished, create a &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;ZIP&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt; file of your &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;entire source code folder&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt; and upload the ZIP file into CANVAS.   &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Be sure that you &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;ZIP&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt; the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;SOURCE CODE folder&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;(NOT the BUILD folder)&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;.   &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;==&amp;gt; CANVAS will only accept a ZIP format file &amp;lt;==&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;To create a&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt; ZIP file, RIGHT-CLICK &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;on your&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt; SOURCE CODE &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;directory and select&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt; COMPRESS.  &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;Use the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;combo box&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; to select the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;.zip&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; file extension and hit the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;CREATE &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;button.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;==&amp;gt; Be sure to verify that you submitted the correct files for grading. &amp;lt;==&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#cc0000;&quot;&gt;Submissions that do not compile will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#ef2929;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;zero credit (0 points).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#cc0000;&quot;&gt;Submissions by email will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#ef2929;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;zero credit (0 points).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;You may use hand-written Qt4-style or Qt5-style connect statements on any of these exam problems.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>P01</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_9">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Topic:  Reimplement and Install the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;eventFilter&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; method of the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; class&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Complete the following tasks.  Scroll to see the complete list of tasks.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;* In the&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; MainWindow class, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;install&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; an &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;event filter&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; (not an event handler) to intercept certain key press events destined for the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;filteredEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object below.  The reimplemented &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;eventFilter&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; should perform the following tasks &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;WITHOUT&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; breaking the ability to edit text as normal&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** If the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;Return &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;or &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;Enter&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; buttons are pressed, &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;*** the cursor should advance to the next line &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;*** &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;the next line must be numbered correctly&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;*** &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;two spaces must be added after the line number&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;*** the total number of lines must be displayed in the status bar of MainWindow&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff001e;&quot;&gt;The delete button must also delete text as normal.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;All other text input into the text edit object below must appear as normal.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;The code that accomplishes these tasks must be in &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;eventFilter &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;or you will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt; zero credit (0 points)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;HINT:  the name of the object below is &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;filteredEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Do NOT use the Designer tool to modify the mainwindow form itself or you will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; zero credit (0 points).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="filteredEdit">
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>P02</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_8">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Topic:  Using &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;C++/Qt statements&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; to add both a &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;Load action&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; and a &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;Save action&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; to the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;File&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; pull-down menu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Complete the following tasks.  Scroll to see complete list of tasks.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;* Add Qt/C++ statement(s) to implement the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;Load action&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; which must read the contents of the file indicated by &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;fileNameEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; into &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;P01&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; widget named &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;filteredEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Each line must be numbered correctly&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** The total number of lines in &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;filteredEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; must be displayed in the status bar&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;** HINT: Use a LOOP to read through the file one line at a time&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Add Qt/C++ statement(s) to implement the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;Save action &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;to write the entire contents of &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;P01&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;filteredEdit &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;to the file named by &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;fileNameEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* Add &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Qt/C++ statement(s) to&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; erase filename from &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;fileNameEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object when &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Load or Save action &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;is triggered&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;Sample files &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;f1.txt, f2.txt, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;and&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt; f3.txt &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;are provided but other files may be used for grading.  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;==&amp;gt; Files must be placed in the directory with the executable (typically the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;build&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt; directory).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;HINT:  the object name is &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;fileNameEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Do NOT use the Designer tool to modify the form itself or you will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; zero credit (0 points).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Enter Filename Here (see result of Load or Save action on P02 tab)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="fileNameEdit"/>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>P03</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_10">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Topic:  &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;Reimplement the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;mousePressEvent&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; method for the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; class&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Complete the following tasks.  Scroll to see the complete list of tasks.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;* Replace the starting text in &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;usernameEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt; with &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;your Linux account username&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* The &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;spawnButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; must perform the following tasks&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Create a &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;popup dialog &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;containing two widgets &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;(1) a &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;QLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; containing the text appearing in &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;usernameEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;   and &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;(2) one object of type &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Popup &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; font-style:italic; color:#0617f3;&quot;&gt;modality&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; defined by radio button selected&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** The frame style of the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object should be &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;QFrame::WinPanel&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Start by displaying the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;0 (zero)&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; pixmap in the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;closeButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; should close all non-modal popups but NOT the entire exam&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* Modifications to the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;mousePressEvent&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; method of the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; class must perform the following tasks&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Each &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;left-mouse click&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; on the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object must cause the pixmap displayed to &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;count upwards&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Each &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;right-mouse click&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; on the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;ToggleLabel&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object must cause the pixmap displayed to &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;count downwards&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** The counter must &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0617f3;&quot;&gt;wrap&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; appropriately in either direction&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Placing the code that performs these tasks elsewhere will result in &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;zero credit (0 points)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;HINT:  the name of the widgets below are &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;usernameEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt; closeButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;spawnButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt; modalButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;, and&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;  nonmodalButton&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Do NOT use the Designer tool to modify the main form itself or create the popup dialog or you will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; zero credit (0 points).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Enter Your Linux Username Below</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="usernameEdit">
+              <property name="text">
+               <string>&lt;Replace this text with your Linux account username&gt;</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Modality</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QRadioButton" name="modalButton">
+               <property name="text">
+                <string>Modal Popup</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="nonmodalButton">
+               <property name="text">
+                <string>Non-Modal Popup</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QPushButton" name="spawnButton">
+              <property name="text">
+               <string>Spawn</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="closeButton">
+              <property name="text">
+               <string>Close Non-Modal Popups</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>P04</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_11">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Topic:  &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;Input Validation - add &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;regular expression&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; validation to protect &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;protectedEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600;&quot;&gt;Complete the following tasks.  Scroll to see the complete list of tasks.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text'; font-size:13pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* The &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;protectedEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object must initially allow arbitrary input&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* The &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;applyButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; must perform the following tasks&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Erase current contents of the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;protectedEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;** Use the regular expression typed into the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;regexEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object to validate inputs into the &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;protectedEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; object&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff001e;&quot;&gt;After application of the new regular expression, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;protectedEdit&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff001e;&quot;&gt; must reject all inputs that do not conform to the regular expression&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;HINT:  the name of the objects below are &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;applyButton&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;regexEdit &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;and &lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#0000ff;&quot;&gt;protectedEdit&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#ff0000;&quot;&gt;Do NOT use the Designer tool to modify the main form itself or you will receive&lt;/span&gt;&lt;span style=&quot; font-family:'.Lucida Grande UI'; font-size:13pt; font-weight:600; color:#000000;&quot;&gt; zero credit (0 points).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>regexEdit Regular Expression (Type desired reg exp here ==&gt;)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="regexEdit"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>protectedEdit Requiring Validation is here ==&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="protectedEdit"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="applyButton">
+            <property name="text">
+             <string>Apply</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1072</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
