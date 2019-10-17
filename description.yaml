@@ -1,0 +1,81 @@
+labs:
+  - 0000: Help
+  - 0001:
+    - QWidget form
+    - Layouts
+    - Spacers
+    - Button widgets
+    - Signal-slot connections
+  - 0002:
+    - Dialogs:
+      - Modal
+      - Non-modal
+    - Static allocation v. Dynamic allocation
+    - Layouts
+    - Spacers
+    - QPushButton
+    - Signal-slot connections
+    - Integration of multiple Qt Designer forms
+  - 0003:
+    - Main Windows
+    - Layouts
+    - QLabels, QPushButtons, QLineEdits, QActions
+    - Tab widgets
+    - Text browsers
+    - Group box
+    - Menus
+    - Tool bars
+    - Status bars
+  - 0004:
+    - Container widgets
+    - ComboBox
+    - Generic event handler
+    - Specific event handler
+    - Files
+    - Text streams
+    - Signal-slot connections
+    - Status bars
+
+lectures:
+  - beepValidator
+  - chatWindow
+  - dirView
+  - dragAndDrop
+  - echoDialog
+  - fileDialog
+  - fileExample1
+  - fileTextStreams
+  - graphicsCrosshairs
+  - graphicsRectangle
+  - graphicsSpaceShip
+  - hideDialog
+  - hlayout
+  - inputValidators
+  - pushtoquit
+  - qthw
+  - stopWatch_genericEvent
+  - stopWatch_specificEvent
+  - timers
+  - udpReceiver
+  - udpSender
+  - virtualSlots
+
+practice:
+  - 0000: Layout_Horizontal
+  - 0001: Layout_Vertical
+  - 0002: Layout_Grid
+  - 0003: Layout_Nested
+  - 0004: Layout_Containers
+  - 0005: More_Layout_Containers
+  - 0006: SignalSlotsQt4
+  - 0007: SignalSlotsQt5
+  - 0008: SignalSlotsCreator
+  - 0009: SignalSlotFunQt4
+  - 0010: SignalSlotFunQt5
+  - 0011: Properties
+  - 0012: QueueManager
+  - 0013: NumberConversion
+  - 0014: SpecificEventHandler
+  - 0015: GenericEventHandler
+  - 0016: EventFilter
+  - 0017: Files
