@@ -1,0 +1,34 @@
+CREATE TABLE customers(UID INT, lastName TEXT, firstName TEXT);
+INSERT INTO customers
+VALUES
+  (128, 'Smith', 'John'),
+  (324, 'Doe', 'John'),
+  (245, 'Jones', 'Mark'),
+  (756, 'Smith', 'Jane'),
+  (459, 'Moore', 'Sara'),
+  (721, 'Parks', 'Ralph');
+
+CREATE TABLE pets(UID INT, petName TEXT, type TEXT);
+INSERT INTO pets
+VALUES
+  (128, 'Spot', 'Dog'),
+  (324, 'Rex', 'Dog'),
+  (756, 'Tiger', 'Cat'),
+  (756, 'Fluffy', 'Cat'),
+  (459, 'Tweety', 'Bird'),
+  (721, 'Yippy', 'Dog'),
+  (128, 'Rover', 'Dog'),
+  (245, 'Stripes', 'Cat'),
+  (324, 'Cupcake', 'Dog'),
+  (459, 'Chewy', 'Dog');
+
+CREATE TABLE vets(UID INT);
+INSERT INTO vets VALUES (324), (245);
+
+CREATE TABLE accounts(UID INT, balance INT);
+INSERT INTO accounts
+VALUES
+  (128, 0),
+  (756, 45),
+  (459, 0),
+  (721, 10);
