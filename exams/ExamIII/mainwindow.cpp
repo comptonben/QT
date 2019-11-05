@@ -54,18 +54,18 @@ MainWindow::MainWindow(QWidget *parent) :
         scene->addItem(tick);
     }
 
-    sec= new QGraphicsRectItem(-3,0,6,80);
-    sec->setBrush(QBrush(Qt::red));
-    sec->setRotation(180);
-    scene->addItem(sec);
-    min= new QGraphicsRectItem(-3,0,6,90);
-    min->setBrush(QBrush(Qt::green));
-    min->setRotation(180);
-    scene->addItem(min);
-    hour= new QGraphicsRectItem(-3,0,6,60);
-    hour->setBrush(QBrush(Qt::white));
-    hour->setRotation(180);
-    scene->addItem(hour);
+    secHand= new QGraphicsRectItem(-3,0,6,80);
+    secHand->setBrush(QBrush(Qt::red));
+    secHand->setRotation(180);
+    scene->addItem(secHand);
+    minHand= new QGraphicsRectItem(-3,0,6,90);
+    minHand->setBrush(QBrush(Qt::green));
+    minHand->setRotation(180);
+    scene->addItem(minHand);
+    hourHand= new QGraphicsRectItem(-3,0,6,60);
+    hourHand->setBrush(QBrush(Qt::white));
+    hourHand->setRotation(180);
+    scene->addItem(hourHand);
 
     clock= new QTimer();
     clock->setInterval(1000);
@@ -103,9 +103,9 @@ void MainWindow::processPendingDatagrams()
 
 void MainWindow::clockMove()
 {
-    sec->setRotation(sec->rotation()+6);
-    min->setRotation(min->rotation()+0.1);
-    hour->setRotation(hour->rotation()+0.00833);
+    secHand->setRotation(secHand->rotation()+6);
+    minHand->setRotation(minHand->rotation()+0.1);
+    hourHand->setRotation(hourHand->rotation()+0.00833);
 }
 
 void MainWindow::clockStart()

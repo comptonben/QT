@@ -33,9 +33,9 @@ private:
 
     QTimer* clock;
     QGraphicsScene* scene;
-    QGraphicsRectItem* sec;
-    QGraphicsRectItem* min;
-    QGraphicsRectItem* hour;
+    QGraphicsRectItem* secHand;
+    QGraphicsRectItem* minHand;
+    QGraphicsRectItem* hourHand;
 
     QLabel* statusLabel;
 
