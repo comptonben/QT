@@ -79,3 +79,6 @@ practice:
   - 0015: GenericEventHandler
   - 0016: EventFilter
   - 0017: Files
+  - 0018: TcpSockets
+  - 0019: UdpSockets
+  - 0022: Saving/Loading/Overlaying Pixmaps on Labels
