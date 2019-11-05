@@ -32,6 +32,6 @@ void ToggleLabel::mousePressEvent(QMouseEvent *me)
         }
         setPixmap(pm[count]);
     }
-    ToggleLabel::mousePressEvent(me);
+    QLabel::mousePressEvent(me);
 }
 

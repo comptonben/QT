@@ -1,5 +1,5 @@
 CREATE TABLE pixels (x INT, y INT, color TEXT);
-INSERT INTO pixels (x, y, color)
+INSERT INTO pixels
 VALUES 
   (120, 60, 'red'),
   (121, 60, 'red'),

@@ -13,7 +13,7 @@ void Label::mousePressEvent(QMouseEvent *event)
             QMimeData* md = new QMimeData();
             if(pixmap())
             {
-                md->setColorData(pixmap());
+                md->setImageData(pixmap()->toImage());
             }
             else
             {
@@ -30,7 +30,7 @@ void Label::dragEnterEvent(QDragEnterEvent *event)
     {
         const QMimeData* md = event->mimeData();
 
-        if(md->hasColor() || md->hasText())
+        if(md->hasImage() || md->hasText())
         {
             event->acceptProposedAction();
         }
@@ -45,9 +45,9 @@ void Label::dropEvent(QDropEvent *event)
     {
         const QMimeData* md = event->mimeData();
 
-        if(md->hasColor())
+        if(md->hasImage())
         {
-            pic = md->colorData().value<QPixmap>();
+            pic = md->imageData().value<QPixmap>();
         }
         else
         {

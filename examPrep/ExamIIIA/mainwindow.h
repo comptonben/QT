@@ -45,9 +45,14 @@ private:
     QGraphicsEllipseItem *greenPlanet;
     QGraphicsEllipseItem *bluePlanet;
 
+    QTimer *timer;
+
 
 private slots:
     void processPendingDatagrams();
+    void planetMove();
+    void startButton();
+    void planetSpeed();
 
 };
 
