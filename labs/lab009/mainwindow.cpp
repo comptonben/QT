@@ -16,9 +16,16 @@ MainWindow::MainWindow(QWidget *parent)
     myMap.fill(Qt::gray);
     label->setPixmap(myMap);
 
-    red = new QAction(QIcon(":/images/red.png"), "Red", this);
-    green = new QAction(QIcon(":/images/green.png"), "Green", this);
-    blue = new QAction(QIcon(":/images/blue.png"), "Blue", this);
+    QPixmap *redPix = new QPixmap(25, 25);
+    redPix->fill(Qt::red);
+    QPixmap *greenPix = new QPixmap(25, 25);
+    greenPix->fill(Qt::green);
+    QPixmap *bluePix = new QPixmap(25, 25);
+    bluePix->fill(Qt::blue);
+
+    red = new QAction(QIcon(*redPix), "Red", this);
+    green = new QAction(QIcon(*greenPix), "Green", this);
+    blue = new QAction(QIcon(*bluePix), "Blue", this);
 
     connect(red, &QAction::triggered, this, &MainWindow::redCircle);
     connect(green, &QAction::triggered, this, &MainWindow::greenSquare);
