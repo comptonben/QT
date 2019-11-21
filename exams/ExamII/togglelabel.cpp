@@ -6,6 +6,7 @@
 ToggleLabel::ToggleLabel(QWidget *parent) : QLabel(parent)
 {
     setPixmap(pm[count]);
+    setFrameStyle(QFrame::WinPanel);
 }
 
 void ToggleLabel::mousePressEvent(QMouseEvent *me)
